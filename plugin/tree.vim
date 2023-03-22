@@ -23,7 +23,9 @@ function! FernInit() abort
   nmap <buffer> <c-l> <Plug>(fern-action-reload)
   nmap <buffer> <Tab> <Plug>(fern-action-mark:toggle)
   nmap <buffer> <c-x> <Plug>(fern-action-open:split)
+  nmap <buffer> <c-x> <Plug>(fern-action-open:split)
   nmap <buffer> <c-v> <Plug>(fern-action-open:vsplit)
+  nmap <buffer> <c-t> <Plug>(fern-action-open:tabedit)
   nmap <buffer><nowait> h <Plug>(fern-action-collapse)
   nmap <buffer><nowait> l <Plug>(fern-my-open-expand-collapse)
 endfunction
